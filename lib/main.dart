@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
+import 'screens/BlogWritingPage.dart';
 import 'screens/HomeScreen.dart';
 import 'screens/blogDetails.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return  const MaterialApp(
       debugShowCheckedModeBanner: false,
       title:'My App',
-      home: BologDetails(),
+      home: BlogWrtingDetails(),
     );
   }
 }

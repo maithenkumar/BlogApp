@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/login_page.dart';
 // import 'package:flutter_application_1/screens/form.dart';
 // import 'package:flutter_application_1/screens/login_page.dart';
 // import 'package:flutter_application_1/widgets/text_form.dart';
 // import 'package:flutter_application_1/screens/form.dart';
  import 'package:flutter_application_1/screens/profile_page.dart';
+
+import 'screens/form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner:false,
       title:'Blog Application',
-      home:ProfilePage(),
+      home:FormPage(),
 
       
     );

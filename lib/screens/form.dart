@@ -17,7 +17,7 @@ class FormPage extends StatelessWidget {
            Form(
             child: Column(
               children: [
-                const Text("Welcome to Conflect ",
+                const Text("Welcome to Blogy ",
                 style: TextStyle(
                   fontSize: 25,
                   fontStyle: FontStyle.italic,

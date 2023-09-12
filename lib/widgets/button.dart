@@ -16,19 +16,20 @@ class Button extends StatelessWidget {
       child: Container(
         width:btnwdt,
         height: btnhgt,
-        margin: const EdgeInsets.all(10),
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: btnColor
         ),
-        child: Text(btnText,
-        textAlign: TextAlign.center,
-      style: TextStyle(
-        color: textColor,
-        fontSize: 15,
-      ),
-      ),
+        child: Center(
+          child: Text(btnText,
+          textAlign: TextAlign.center,
+              style: TextStyle(
+          color: textColor,
+          fontSize: 15,
+              ),
+              ),
+        ),
       ),
     );
   }
